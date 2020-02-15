@@ -22,9 +22,9 @@
 		<div class="row">
 			<div class="col-md-4 col-md-offset-4">
 				<div class="login-panel panel panel-default">
-					<div class="panel-heading">
+					<!-- <div class="panel-heading">
 						<h3 class="panel-title" align="center">Silahkan Login</h3>
-					</div>
+					</div> -->
 					<div class="panel-body">
 						<div id="notifications">
 						<?php 
@@ -36,7 +36,8 @@
 						?>	
 						</div>
 						<center>
-							<img src="<?= base_url('assets/images/tribun1.jpg'); ?>">
+							<!-- <img src="<?= base_url('assets/images/tribun1.jpg'); ?>"> -->
+							<h3>SiGa Login</h3>
 						</center><br>
 						
 						<form role="form" action="<?= base_url('Login/dologin'); ?>" method="post">
